@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Premoji | Emoji Kütüphanesi",
+    "version": "1.0",
+    "description": "Hızlı emoji seçimi için Chrome eklentisi @netpixdev | 2024",
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["clipboardWrite"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
